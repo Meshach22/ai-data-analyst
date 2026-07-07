@@ -50,7 +50,7 @@ if uploaded_file:
 # CHAT SECTION
 if st.session_state.df is not None:
     st.markdown("---")
-    st.subheader("💬 Ask Claude About Your Data")
+    st.subheader("💬 Ask Llama About Your Data")
     
     # Display chat history
     for msg in st.session_state.conversation_history:
@@ -69,8 +69,8 @@ if st.session_state.df is not None:
         with st.chat_message("user"):
             st.write(user_question)
         
-        # Get Claude's analysis
-        with st.spinner("🤖 Claude is analyzing..."):
+        # Get Llama analysis
+        with st.spinner("🤖 Llama is analyzing..."):
             try:
                 analysis, st.session_state.conversation_history = analyze_with_claude(
                     st.session_state.df,
@@ -78,7 +78,7 @@ if st.session_state.df is not None:
                     st.session_state.conversation_history
                 )
                 
-                # Show Claude's response
+                # Show Llama's response
                 with st.chat_message("assistant"):
                     st.write(analysis)
             
