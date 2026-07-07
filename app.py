@@ -11,7 +11,7 @@ st.set_page_config(
 
 # Title
 st.title("📊 AI Data Analyst")
-st.markdown("Upload a CSV and ask questions. Claude AI will analyze and suggest visualizations.")
+st.markdown("Upload a CSV and ask questions. LLamma AI will analyze and suggest visualizations.")
 
 # Sidebar info
 with st.sidebar:
