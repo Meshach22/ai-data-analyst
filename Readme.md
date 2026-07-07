@@ -1,4 +1,5 @@
 # AI Data Analyst
+🔗 **Live Demo:** [ai-data-analyst-kqmophdccvbvuwinhpfnjt.streamlit.app](https://ai-data-analyst-kqmophdccvbvuwinhpfnjt.streamlit.app)
 
 An AI-powered data analysis tool that lets users upload a CSV file and ask questions about it in natural language. The app analyzes the data and returns structured insights along with visualization suggestions.
 
@@ -27,4 +28,4 @@ An AI-powered data analysis tool that lets users upload a CSV file and ask quest
 4. Run: `streamlit run app.py`
 
 ## Screenshots
-(Add a screenshot of the app here)
+![App Screenshot](screenshot.png)
