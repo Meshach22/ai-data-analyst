@@ -11,7 +11,7 @@ st.set_page_config(
 
 # Title
 st.title("📊 AI Data Analyst")
-st.markdown("Upload a CSV and ask questions. LLamma AI will analyze and suggest visualizations.")
+st.markdown("Upload a CSV and ask questions. Llama AI will analyze and suggest visualizations.")
 
 # Sidebar info
 with st.sidebar:
@@ -19,7 +19,7 @@ with st.sidebar:
     st.markdown("""
     1. **Upload** a CSV file
     2. **Ask** questions about your data
-    3. **Get** Claude's analysis + visualization suggestion
+    3. **Get**  AI analysis + visualization suggestion
     4. **Learn** insights from your data
     """)
 
